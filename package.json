@@ -1,5 +1,11 @@
 {
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.4"
+  },
+  "homepage": "https://yourusername.github.io/Xzect-Task-7",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
